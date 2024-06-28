@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "departure": "İstanbul",
+    "destination": "İzmir",
+    "departureTime": "10:00",
+    "date": "2024-06-25",
+    "distance": 340, 
+    "seats": [
+      { "number": "1A","price": 250, "reserved": true },
+      { "number": "1B","price": 250, "reserved": false },
+      { "number": "2A","price": 250, "reserved": true },
+      { "number": "2B","price": 250, "reserved": false }
+    ],
+    "price": 250
+  },
+  {
+    "id": 2,
+    "departure": "İstanbul",
+    "destination": "Ankara",
+    "departureTime": "12:00",
+    "date": "2024-06-25",
+    "distance": 350,
+    "seats": [
+      { "number": "1A","price": 270, "reserved": false },
+      { "number": "1B","price": 270, "reserved": true },
+      { "number": "2A","price": 270, "reserved": false },
+      { "number": "2B","price": 270, "reserved": true }
+    ],
+    "price": 270
+  },
+  {
+    "id": 3,
+    "departure": "İstanbul",
+    "destination": "Antalya",
+    "departureTime": "14:00",
+    "date": "2024-06-25",
+    "distance": 500,
+    "seats": [
+      { "number": "1A","price": 350, "reserved": true },
+      { "number": "1B","price": 350, "reserved": false },
+      { "number": "2A","price": 350, "reserved": true },
+      { "number": "2B","price": 350, "reserved": false }
+    ],
+    "price":350
+  },
+  {
+    "id": 4,
+    "departure": "Ankara",
+    "destination": "İzmir",
+    "departureTime": "11:30",
+    "date": "2024-06-25",
+    "distance": 420,
+    "seats": [
+      { "number": "1A","price": 320, "reserved": false },
+      { "number": "1B","price": 320, "reserved": false },
+      { "number": "2A","price": 320, "reserved": false },
+      { "number": "2B","price": 320, "reserved": false }
+    ],
+    "price":320
+ },
+  {
+    "id": 5,
+    "departure": "Ankara",
+    "destination": "Antalya",
+    "departureTime": "13:30",
+    "date": "2024-06-25",
+    "distance": 350,
+    "seats": [
+      { "number": "1A","price": 320, "reserved": false },
+      { "number": "1B","price": 320, "reserved": false },
+      { "number": "2A","price": 320, "reserved": false },
+      { "number": "2B","price": 320, "reserved": false }
+    ],
+    "price":320
+  },
+  {
+    "id": 6,
+    "departure": "Antalya",
+    "destination": "İzmir",
+    "departureTime": "15:30",
+    "date": "2024-06-25",
+    "distance": 340,
+    "seats": [
+      { "number": "1A","price": 260, "reserved": false },
+      { "number": "1B","price": 260, "reserved": false },
+      { "number": "2A","price": 260, "reserved": false },
+      { "number": "2B","price": 260, "reserved": false }
+    ],
+    "price":260
+  },
+  {
+    "id": 7,
+    "departure": "Ankara",
+    "destination": "İstanbul",
+    "departureTime": "16:30",
+    "date": "2024-06-25",
+    "distance": 350,
+    "seats": [
+      { "number": "1A","price":270, "reserved": false },
+      { "number": "1B","price":270, "reserved": false },
+      { "number": "2A","price":270, "reserved": false },
+      { "number": "2B","price":270, "reserved": false }
+    ],
+    "price":270
+  },
+  {
+    "id": 8,
+    "departure": "İzmir",
+    "destination": "Ankara",
+    "departureTime": "17:30",
+    "date": "2024-06-25",
+    "distance": 420,
+    "seats": [
+      { "number": "1A","price":280, "reserved": false },
+      { "number": "1B","price":280, "reserved": false },
+      { "number": "2A","price":280, "reserved": false },
+      { "number": "2B","price":280, "reserved": false }
+    ],
+    "price":280
+  },
+  {
+    "id": 9,
+    "departure": "Antalya",
+    "destination": "İstanbul",
+    "departureTime": "19:30",
+    "date": "2024-06-25",
+    "distance": 500,
+    "seats": [
+      { "number": "1A","price":350, "reserved": false },
+      { "number": "1B","price":350, "reserved": false },
+      { "number": "2A","price":350, "reserved": false },
+      { "number": "2B","price":350, "reserved": false }
+    ],
+    "price":350
+  },
+  {
+    "id": 10,
+    "departure": "Ankara",
+    "destination": "Antalya",
+    "departureTime": "12:00",
+    "date": "2023-12-01",
+    "seats": [
+      { "number": "2A","price":400, "reserved": false },
+      { "number": "2B","price":400, "reserved": false }
+    ],
+    "price":400
+  }
+]

@@ -1,0 +1,126 @@
+/* app.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.results-container {
+  margin-top: 20px;
+}
+
+.results-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.results-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results-container li {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.results-container li:hover {
+  background-color: #e9ecef;
+}
+
+.seats-container {
+  margin-top: 20px;
+}
+
+.seats-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.seats-container ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.seats-container li {
+  width: calc(25% - 10px);
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.seats-container li.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.seats-container li.reserved {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.menu-item {
+  color: white !important; /* Menü öğe metni beyaz renkte */
+  font-weight: bold;
+}
+
+.menu-item:hover,
+.menu-item:focus,
+.menu-item:active {
+  color: white !important; /* Fare üzerine geldiğinde veya tıklandığında aynı vurgulu renk */
+  background-color: #1890ff !important; /* Arka plan mavi renkte */
+}
